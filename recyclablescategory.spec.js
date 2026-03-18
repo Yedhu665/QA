@@ -36,7 +36,7 @@ test('Add Recyclables Category and Verify', async ({ page }) => {
   console.log(`Filling category names with ${categoryName}...`);
   await page.getByRole('textbox', { name: 'Category Name (English)' }).fill(categoryName);
   await page.getByRole('textbox', { name: 'Category Name (Arabic)' }).fill(categoryNameAr);
-  
+
   // Is Payable
   console.log('Selecting Is Payable...');
   await page.getByRole('combobox', { name: /Is Payable/ }).click();
@@ -68,17 +68,17 @@ test('Add Recyclables Category and Verify', async ({ page }) => {
   // Try to find the category in the grid
   console.log(`Checking for gridcell with text "${categoryName}"...`);
   const categoryNameCell = page.getByRole('gridcell').filter({ hasText: categoryName }).first();
-  
+
   try {
     await expect(categoryNameCell).toBeVisible({ timeout: 15000 });
   } catch (e) {
     console.error(`Category "${categoryName}" not visible after creation.`);
-    // List all visible text in cells to see what we DID find
+    // List all visible text in cells to see what we DID fgitind
     const allCells = await page.getByRole('gridcell').allInnerTexts();
     console.log('Current grid cell contents:', allCells);
     throw e;
   }
-  
+
   const row = page.getByRole('row', { name: new RegExp(categoryName, 'i') }).first();
   await expect(row).toContainText('Yes');
 });
