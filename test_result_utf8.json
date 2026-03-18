@@ -1,0 +1,136 @@
+﻿[dotenv@17.3.1] injecting env (2) from .env -- tip: ≡ƒöÉ encrypt with Dotenvx: https://dotenvx.com
+{
+  "config": {
+    "rootDir": "C:/Users/yedhu/playwright-project/playwright/tharwah/tharwahui",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/yedhu/playwright-project/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/yedhu/playwright-project/playwright/tharwah/tharwahui",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.57.0",
+    "workers": 6,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "customers.spec.js",
+      "file": "customers.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Navigate to Customer List, Search, Edit and Verify Update",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 15366,
+                  "error": {
+                    "message": "TimeoutError: page.waitForSelector: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('text=Dashboard') to be visible\u001b[22m\n",
+                    "stack": "TimeoutError: page.waitForSelector: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('text=Dashboard') to be visible\u001b[22m\n\n    at C:\\Users\\yedhu\\playwright-project\\playwright\\tharwah\\tharwahui\\customers.spec.js:27:14",
+                    "location": {
+                      "file": "C:\\Users\\yedhu\\playwright-project\\playwright\\tharwah\\tharwahui\\customers.spec.js",
+                      "column": 14,
+                      "line": 27
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 25 |\u001b[39m   \u001b[90m// Wait for the login to complete by waiting for a dashboard element\u001b[39m\n \u001b[90m 26 |\u001b[39m   \u001b[90m// This ensures we are actually logged in before proceeding\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 27 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForSelector(\u001b[32m'text=Dashboard'\u001b[39m\u001b[33m,\u001b[39m { timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 28 |\u001b[39m   \n \u001b[90m 29 |\u001b[39m   \u001b[90m// 3) Navigate directly to the Customer List page\u001b[39m\n \u001b[90m 30 |\u001b[39m   \u001b[90m// Ensuring URL is clean (handles potential double slashes)\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\yedhu\\playwright-project\\playwright\\tharwah\\tharwahui\\customers.spec.js",
+                        "column": 14,
+                        "line": 27
+                      },
+                      "message": "TimeoutError: page.waitForSelector: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('text=Dashboard') to be visible\u001b[22m\n\n\n  25 |   // Wait for the login to complete by waiting for a dashboard element\n  26 |   // This ensures we are actually logged in before proceeding\n> 27 |   await page.waitForSelector('text=Dashboard', { timeout: 10000 });\n     |              ^\n  28 |   \n  29 |   // 3) Navigate directly to the Customer List page\n  30 |   // Ensuring URL is clean (handles potential double slashes)\n    at C:\\Users\\yedhu\\playwright-project\\playwright\\tharwah\\tharwahui\\customers.spec.js:27:14"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-03-11T12:35:38.067Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\yedhu\\playwright-project\\test-results\\customers-Navigate-to-Cust-9ce39-arch-Edit-and-Verify-Update\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\yedhu\\playwright-project\\playwright\\tharwah\\tharwahui\\customers.spec.js",
+                    "column": 14,
+                    "line": 27
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "7ab72d16adb42747d672-aedcb795ca1821a9bfe7",
+          "file": "customers.spec.js",
+          "line": 16,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-03-11T12:35:37.118Z",
+    "duration": 17667.789999999997,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

@@ -1,0 +1,3 @@
+[   57077ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ https://tharwah.qa/dashboard/scrap-category/:0
+[ 2898334ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ https://tharwah.qa/dashboard/scrap-category/add/:0
+[ 2898496ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ https://tharwah.qa/dashboard/scrap-category/:0
