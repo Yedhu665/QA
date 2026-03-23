@@ -1,0 +1,15 @@
+[   21701ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ https://tharwah.qa/assets/GenericDataTable-DZBOJ8b5.js:0
+[   21701ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ https://tharwah.qa/assets/tableUtils-BW-8jSYk.js:0
+[   21702ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ https://tharwah.qa/assets/index-CkSBCMX2.js:0
+[   21754ms] [ERROR] Error handled by React Router default ErrorBoundary: TypeError: Failed to fetch dynamically imported module: https://tharwah.qa/assets/index-CkSBCMX2.js @ https://tharwah.qa/assets/index-DR_fZPCo.js:12
+[   21796ms] [ERROR] Error handled by React Router default ErrorBoundary: TypeError: Failed to fetch dynamically imported module: https://tharwah.qa/assets/index-CkSBCMX2.js @ https://tharwah.qa/assets/index-DR_fZPCo.js:12
+[   21803ms] [ERROR] TypeError: Failed to fetch dynamically imported module: https://tharwah.qa/assets/index-CkSBCMX2.js @ https://tharwah.qa/assets/index-DR_fZPCo.js:8
+[   21803ms] [ERROR] React Router caught the following error during render TypeError: Failed to fetch dynamically imported module: https://tharwah.qa/assets/index-CkSBCMX2.js @ https://tharwah.qa/assets/index-DR_fZPCo.js:12
+[   21843ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ https://tharwah.qa/assets/PageHeader-CqVi4Vcc.js:0
+[   21843ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ https://tharwah.qa/assets/excel-BsqxREE8.js:0
+[   21843ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ https://tharwah.qa/assets/FilterDropdown-DJxhwTeG.js:0
+[   22192ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ https://tharwah.qa/assets/FormDialog-C_lqyb6L.js:0
+[   22204ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ https://tharwah.qa/assets/PermissionGuard-CElvme32.js:0
+[   81497ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://tharwah.qa/dashboard/hazardous-category/add/:0
+[  110641ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://tharwah.qa/dashboard/hazardous-category/add/:0
+[  144541ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://tharwah.qa/dashboard/hazardous-category/add/:0

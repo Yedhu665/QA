@@ -1,0 +1,14 @@
+[  589061ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://tharwah.qa/dashboard/hazardous-category/add/:0
+[  600760ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://tharwah.qa/dashboard/hazardous-category/add/:0
+[  643003ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://tharwah.qa/dashboard/hazardous-category/add/:0
+[  688589ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ https://tharwah.qa/media/plastic.png:0
+[  688594ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ https://tharwah.qa/media/paper.png:0
+[  688745ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ https://tharwah.qa/media/textile.png:0
+[  688757ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ https://tharwah.qa/media/glass.png:0
+[  688903ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ https://tharwah.qa/media/metal.png:0
+[  688903ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ https://tharwah.qa/media/organic.png:0
+[  688904ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ https://tharwah.qa/media/electronics.png:0
+[  938533ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://tharwah.qa/dashboard/hazardous-category/add/:0
+[  952420ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://tharwah.qa/dashboard/hazardous-category/add/:0
+[ 1947647ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ https://tharwah.qa/hazardous-category:0
+[ 1947956ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ https://tharwah.qa/favicon.ico:0
