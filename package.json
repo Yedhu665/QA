@@ -1,0 +1,14 @@
+{
+  "name": "add_client-tharwah",
+  "version": "1.0.0",
+  "main": "userlogin.spec.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.64.0",
+    "@types/node": "^26.6.4"
+  }
+}
