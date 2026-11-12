@@ -1,14 +1,11 @@
 // @ts-check
-import { test, expect } from '../fixtures/fixtures.js';
+import { authTest as test, expect } from '../fixtures/fixtures.js';
 import { CUSTOMERS_PATH, CUSTOMER_COLUMNS, FIELD } from '../pages/CustomersPage.js';
 
 // The grid virtualises columns: at narrower widths "Pending Point Requests" and "Created At"
 // are not in the DOM until scrolled. A wide viewport renders all columns without scrolling.
-test.use({
-  viewport: { width: 1920, height: 1080 },
-  // Reuse one login per worker instead of logging in (and loading the dashboard) for every test.
-  storageState: async ({ authStorageState }, use) => use(authStorageState),
-});
+// `authTest` starts every test logged in (one shared login per worker).
+test.use({ viewport: { width: 1920, height: 1080 } });
 
 const PAGE_SIZE = 10;
 const PHONE_RE = /^\+\d{1,4} \d{6,12}$/;
@@ -29,8 +26,7 @@ test.describe('Customers - listing page', () => {
   /** @type {{ status: number, body: { count: number, results: any[] } }} */
   let api;
 
-  // `credentials` skips the suite when .env has no login; the session itself comes from authStorageState.
-  test.beforeEach(async ({ customersPage, credentials }) => {
+  test.beforeEach(async ({ customersPage }) => {
     api = await customersPage.goto();
   });
 

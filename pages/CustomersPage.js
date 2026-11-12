@@ -40,6 +40,7 @@ export class CustomersPage {
   constructor(page) {
     this.page = page;
     this.heading = page.getByRole('heading', { name: 'Customers', level: 4 });
+    this.searchInput = page.getByPlaceholder('Search customer');
     this.grid = page.getByRole('grid');
     this.columnHeaders = this.grid.getByRole('columnheader');
     // Data rows carry the record id in data-id; the header row does not.

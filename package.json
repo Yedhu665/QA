@@ -1,8 +1,12 @@
 {
   "name": "add_client-tharwah",
   "version": "1.0.0",
-  "main": "userlogin.spec.js",
-  "scripts": {},
+  "scripts": {
+    "test": "playwright test",
+    "test:chromium": "playwright test --project=chromium",
+    "test:customers": "playwright test tests/customers.spec.js",
+    "report": "playwright show-report"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
