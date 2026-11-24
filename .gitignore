@@ -9,4 +9,11 @@ node_modules/
 
 # Local secrets and tool output
 .env
+.env.*
+!.env.example
 .playwright-mcp/
+
+# Saved login sessions (Playwright storage state: contains access/refresh tokens)
+.auth/
+**/storageState*.json
+**/storage-state*.json
